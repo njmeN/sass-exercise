@@ -1,0 +1,10 @@
+@import "./variables";
+@import "./header";
+.contact{
+    @extend header;
+    background-color: greenyellow;
+    p{
+        background-color: beige;
+    }
+}
+

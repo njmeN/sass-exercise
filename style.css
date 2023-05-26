@@ -1,0 +1,20 @@
+header, .contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightblue;
+}
+header button, .contact button {
+  background: #de4d85;
+}
+header button:hover, .contact button:hover {
+  background-color: red;
+}
+
+.contact {
+  background-color: greenyellow;
+}
+.contact p {
+  background-color: beige;
+}/*# sourceMappingURL=style.css.map */
