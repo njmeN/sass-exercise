@@ -1,0 +1,12 @@
+@use "../abstract/variables" as var;
+#colorBlocks{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    .color-block{
+        height: 9rem;
+    }
+    @each $key, $color in var.$colors{
+        .#{$key}{background-color: $color;}
+    }
+}

@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html>
-    <head><link rel="stylesheet" href="style.css" /></head>
+    <head>
+        <link rel="stylesheet" href="./sass/style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
     <body>
         <header>
-            <h1>Hello my dear</h1>
-            <button>Hello</button>
-        </header>
-        <div class="contact">
-            <div class="info">
-                <h1>Our contact info</h1>
-                <p>This is our info</p>
+            <div id="navWrapper">
+                <div class="logo">logo</div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
             </div>
-            <button>Submit</button>
-        </div>
+            <div id="heroWrapper">
+                <div class="hero-content-container">
+                    <div class="hero-text text-center">Welcome to our new website!</div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div id="colorBlocks">
+                <div class="col-2 color-block color1"></div>
+                <div class="col-3 color-block color2"></div>
+                <div class="col-1 color-block color3"></div>
+                <div class="col-4 color-block color4"></div>
+                <div class="col-2 color-block color5"></div>
+            </div>
+        </main>
     </body>
 </html>

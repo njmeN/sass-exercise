@@ -1,0 +1,11 @@
+@use "../abstract/variables" as var;
+@mixin small{
+    @media (min-width:#{var.$small-width}) and (max-width:#{var.$large-width-1px}){
+        @content;
+    }
+}
+@mixin large{
+    @media (min-width:#{var.$large-width}){
+        @content;
+    }
+}

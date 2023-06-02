@@ -1,0 +1,15 @@
+@use "../abstract/variables" as vars;
+@use "sass:map";
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: map-get($map: var.$secondary-colors, $key:white );
+    font-family: $text-font;
+    color:map-get($map: var.$secondary-colors, $key: black);
+}
+a{
+    text-decoration: none;
+}

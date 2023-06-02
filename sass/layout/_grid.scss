@@ -1,0 +1,5 @@
+@use "sass:math";
+@for $i from 1 through 12{
+    $width: math.percentage($i/12);
+    .col-#{$i}{flex-basis: $width;}
+}
