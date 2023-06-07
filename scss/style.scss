@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+//1.Themes
+@use "../scss/themes/new";
+//2.Vendors
+//3.Base
+@use "../scss/base/base";
+@use "../scss/base/fonts";
+@use "../scss/base/normalize";
+//4.Layout
+@use "../scss/layout/header";
+@use "../scss/layout/footer";
+@use "../scss/layout/grid";
+//5.Components
+@use "../scss/components/buttons";
+//6.page.Specific
+@use "../scss/pages/home";
